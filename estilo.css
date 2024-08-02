@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.topo{
+    background-color: rgb(255, 148, 9);
+    text-align: center;
+    padding: 25px;
+    font-size: 22px;
+    position: sticky;
+    top: 0px;
+    width: auto;
+
+}
+
+.descricao{
+    margin: 24px;
+}
+.listatitulo{
+    text-align: center;
+    margin-top: 5%;
+}
+.listajogos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+
+.jogo{
+    text-align: center;
+    margin: 12px;
+    width: 340px;
+    height: 250px;
+    background-image: -webkit-image-set('back1.png');
+    border-radius: 9px;
+}
+
+#titulojogo{
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+#descricaojogo{
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+#imagemjogo{
+    margin-top: 55px;
+}
